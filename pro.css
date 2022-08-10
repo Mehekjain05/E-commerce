@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+    height: 10%;
+}
+.center{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 10%;
+}
+.corner{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+.container ul{
+    display: flex;
+}
+.container li{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 10%;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.cute{
+    background-color: #f0404f;
+    width: 88%;
+    height: 110%;
+    margin-left: 5%;
+}
+.core{
+    margin-left: 35%;
+
+}
+h1{
+    color: white;
+    margin-top: 5%;
+    font-size: 60px;
+}
+form p {
+    color: #f0404f;
+}
+.regular{
+    margin-top: 4%;
+    margin-left: 20%;
+}
+.inputbox{
+    position: relative;
+    margin: 32px 0;
+}
+.inputbox .hello{
+    display: block;
+    width: 60%;
+    border: 0;
+    border-bottom: 2px solid white;
+    color: white;
+    background-color: #f0404f;
+}
+    .inputbox ::placeholder{
+        color: white;
+    }
+    .area{
+        height: 25%;
+    }
+.bt{
+    margin-left: 20%;
+    margin-top: 5.2%;
+}  
+.btn{
+    width: 25%;
+    height: 10%;
+    font-size: 15px;
+    background-color: #FFFFFF;
+    border-color: white;
+    border-color: transparent;
+}
+@media screen and (max-width:1475px){
+    .container a{
+        font-size: 1.2rem;
+    }
+
+}
+@media screen and (max-width:1175px){
+    .container a{
+        font-size: 1.0rem;
+    }
+    .core{
+        margin-left: 30%;
+    
+    }
+
+}
+@media screen and (max-width:980px){
+    .container a{
+        font-size: 0.8rem;
+    }
+
+    .core{
+        margin-left: 25%;
+    
+    }
+    .jar .box .text h1{
+      font-size:1.5rem ;
+    }
+}
+@media screen and (max-width:820px){
+    .core{
+        margin-left: 20%;
+    
+    }
+    .core{
+        margin-left: 20%;
+    
+    }
+
+}
+@media screen and (max-width:750px){
+    .corner{
+        display: none;
+    }
+    .center{
+        float: right;
+    }
+    .container li a{
+       font-size: 0.8rem;
+    }
+    .core{
+        margin-left: 15%;
+    
+    }
+    .jar .box{
+        width: 24%;
+    }
+    .jar{
+        height: 30%;
+    }
+
+}
+@media screen and (max-width:610){
+    .jar .box .text h1{
+        font-size: 1.2rem;
+      }
+}
+@media screen and (max-width:538px){
+    .cute{
+        background-color: #f0404f;
+        width: 90%;
+        height:95%;
+        margin-left: 5%;
+    }    
+    h1{
+        color: white;
+        margin-top: 5%;
+        font-size: 40px;
+    }
+    .core{
+        margin-left: 10%;
+    
+    }
+    .jar .box .text h1{
+        font-size:1.0rem ;
+      }
+
+}
+@media screen and (max-width:390px){
+    .cute{
+        background-color: #f0404f;
+        width: 95%;
+        height:95%;
+        margin-left: 5%;
+    }    
+    h1{
+        color: white;
+        margin-top: 5%;
+        font-size: 38px;
+    }
+    .core{
+        margin-left: 8%;
+    
+    }
+    .jar .box .text h1{
+        font-size:0.8rem ;
+      }
+
+}
+.jar{
+    width:100%;
+    height: 40%;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-left: 5%;
+
+}
+.jar .box{
+    position: relative;
+    width: 22%;
+    height: 90%;
+    background-color:red;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.jar .box .img-box{
+    position: relative;
+    overflow: hidden;
+}
+.jar .box .img-box img{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    opacity: .6;
+}
+.jar .box:hover .img-box img{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.jar .box .text{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    bottom: 1%;
+    right: 1%;
+    background: rgba(34, 32, 58, 0.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+    color: white;
+}
+.jar .box:hover .text{
+    transform: scaleY(1);
+}
+.again{
+    margin-top: 10%;
+    margin-left: 40%;
+    width: 10%;
+}
+.tell{
+    margin-left: 32%;
+    margin-top: 3%;
+}
+.low{
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 32%;
+    display: flex;
+
+}
+.less{
+    display: block;
+    padding-bottom: 5%;
+    border: 0;
+    border-bottom: 2px solid black;
+    font-size: 1.5rem;
+}
+.arr{
+    width: 3%;
+    cursor: pointer;
+    height: 5%;
+    padding-bottom: 5%;
+    font-size: 2.5rem;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    border-bottom: 2px solid black;
+}
+.footer-bottom{
+    margin-top: 3%;
+    margin-left: 30%;
+    color: gray;
+}
+@media screen and (max-width:1000px){
+    .less{
+       font-size: 1.0rem;
+    }
+    .footer-bottom{
+        margin-top: 3%;
+        margin-left: 20%;
+        color: gray;
+    }
+    .tell{
+        margin-left: 26%;
+        margin-top: 3%;
+    }
+    .box4{
+        display: none !important;
+    }
+    .jar .box{
+        width: 30%;
+    }
+}
+@media screen and (max-width:825px){
+    .box4{
+        display: block !important;
+    }
+    .jar .box{
+        width: 22%;
+        height: 80%;
+    }
+}
+@media screen and (max-width:760px) {
+    .less{
+        font-size: 0.8rem;
+     }
+     .footer-bottom{
+         margin-top: 3%;
+         margin-left: 10%;
+         color: gray;
+     }
+
+     .tell{
+        margin-left: 17%;
+        margin-top: 3%;
+    }
+    .jar .box{
+        width: 22%;
+        height: 70%;
+    }
+}
+
+
+@media screen and (max-width:570px) {
+    .less{
+        font-size: 0.6rem;
+     }
+     .footer-bottom{
+         margin-top: 3%;
+         margin-left: 2%;
+         color: gray;
+         font-size: 0.8rem;
+     }
+
+     .tell{
+        margin-left: 2%;
+        margin-top: 3%;
+    }
+    .jar .box{
+        width: 22%;
+        height: 70%;
+    }
+}
+@media screen and (max-width:405px) {
+
+     .tell p {
+        font-size: 0.8rem;
+        margin-left: 5%;
+    }
+    .footer-bottom{
+        margin-top: 3%;
+        margin-left: 9%;
+        color: gray;
+        font-size: 0.6rem;
+    }
+    .jar .box{
+        width: 24%;
+        height: 50%;
+    }
+    .jar .box .text{
+        font-size: 0.7rem;
+    }
+    .arr{
+        width: 1%;
+        height: 3%;
+        font-size: 1.5rem;
+    }
+    .less{
+        font-size: 0.4rem;
+    }
+}
+@media screen and (max-width:290px) {
+    .container li a{
+        font-size: 0.6rem;
+    }
+    .tell p {
+        font-size: 0.6rem;
+        margin-left: 5%;
+
+    }
+}

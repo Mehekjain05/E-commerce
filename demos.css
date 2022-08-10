@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+}
+.contain{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    vertical-align: middle;
+}
+hr {
+    margin: 0rem 0; 
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+.logo{
+    width: 30%;
+    height: 20%;
+}
+.contain ul{
+    margin-left: 20%;
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+}
+.contain ul li{
+ margin: 11%  5%  0%  2%;
+}
+.contain ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+.contain ul li a:hover{
+    color: blue;
+}
+
+ol, ul {
+    padding-left: 0;
+}
+@media screen and (max-width:1230px) {
+    .contain ul{
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width:1124px) {
+    .contain ul li a{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:950px) {
+    .contain ul{
+        margin-left: 13%;
+    }
+    .contain ul li a{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:950px) {
+    .contain ul{
+        margin-left: 3%;
+    }
+    .contain ul li a{
+        font-size: 1.0rem;
+    }
+    .contain ul li{
+        margin: 9%  5%  0%  2%;
+       }
+}
+@media screen and (max-width:656px) {
+    .contain ul li a{
+        font-size: 0.8rem;
+    }
+    .contain ul li{
+        margin: 7%  5%  0%  2%;
+       }
+}
+@media screen and (max-width:523px) {
+    .contain ul li a{
+        font-size: 0.7rem;
+    }
+    .contain ul li{
+        margin: 5%  3%  0%  2%;
+    }
+
+}
+@media screen and (max-width:440px) {
+    .contain ul li{
+        margin: 5%  3%  0%  0%;
+       }
+}
+@media screen and (max-width:363px) {
+    .contain ul li a{
+        font-size: 0.6rem;
+    }
+    .contain ul li{
+        margin: 5%  2%  0%  0%;
+    }
+}
+@media screen and (max-width:306px) {
+    .contain ul li a{
+        font-size: 0.6rem;
+    }
+    .contain ul li{
+        margin: 5%  2%  0%  0%;
+    }
+}
+
+/* .right-img img{
+   width: 20rem;
+   height: 20rem;
+}
+ */
+ .container i{
+     color: orangered;
+     font-size: 2.5rem;
+     margin-bottom: 10%;
+ }
+ .container h5{
+    font-weight: bolder;
+ }
+ .again{
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.again img{
+    width: 20%;
+}
+.tell{
+    margin-left: 32%;
+    margin-top: 3%;
+}
+@media screen and (max-width:910px) {
+    .tell{
+        margin-left: 25%;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width:720px) {
+    .tell{
+        margin-left: 15%;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width:430px) {
+    .tell{
+        margin-left: 10%;
+        margin-top: 3%;
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width:345px) {
+    .tell{
+        margin-left: 5%;
+        margin-top: 3%;
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width:280px) {
+    .tell{
+        margin-left: 0%;
+        margin-top: 3%;
+        font-size: 0.6rem;
+    }
+}
